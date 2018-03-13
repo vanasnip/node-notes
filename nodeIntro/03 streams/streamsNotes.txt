@@ -1,0 +1,5 @@
+#Stream in Node
+
+- streams are instances of (and extensions of) EventEmitter with and agreed upon interface
+- a stream is an instance of either ReadableStream, WritableStream or Both
+- ReadableStream can be pipe()'d to a WritableStream
