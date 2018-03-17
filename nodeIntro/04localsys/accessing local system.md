@@ -72,3 +72,19 @@ os.freemem()
 os.cpus()
 os.networkInterfaces()
 os.EOL // end of line marker
+
+
+##Testing with Mocha
+no uncommon to see it paired with shouldJS
+
+Runs tests serially (both sync and async test)
+Test cases are organise into test suites
+Includes before(), after(), beforeEach() and afterEach() hooks
+Support for pending, exclusive and inclusive tests
+Captures test duration, flagging tests that are slow
+Can watch a directory and re-run tests on changes
+Multiple "interfaces" for writing tests (BSD, TDD, Exports, QUnit)
+Multiple "reportes" for rendering test results
+
+Asserting with should.js
+Exxtends Node's "assert" module with BDD style assertions
