@@ -38,5 +38,10 @@ n.on('message', function(m) {
 n.send({hello: 'world'});
 ```
 
+##Scaling with Node's "cluster' module
+
+-An experimental module leveraging child_prcess.fork()
+-Introduces a "Worker" class as well as master function and events
+
 
 
